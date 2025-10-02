@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: white;
+  background-image: 
+    linear-gradient(#ffd6d6 1px, transparent 1px),
+    linear-gradient(90deg, #ffd6d6 1px, transparent 1px);
+    background-size: 20px 20px;
+
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    flex: 1
+}
+
+
+/* menu */
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #b71422;
+    padding: 10px;
+}
+
+.menu a{
+
+    color: #ec525f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* menu */
+
+
+/* Parrafos */
+
+#parrafoIndex{
+    text-align: center;}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    font-size: 80px;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 40px;
+    text-align: left;
+}
+
+h3{
+    font-size: 25px;
+    text-align: left;
+    color: rgb(37, 37, 37);
+
+}
+
+.parrafoJuego{
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    margin-top: 0px;
+}
+
+.parrafoFooter{
+    text-align: center;
+    color: black;
+}
+
+/* Footer */
+
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: #b71422;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer a{
+    color: #b71422;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+
+/* Parrafos */
+
+/* Imagenes */
+
+.imagen{
+    width: 800px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+/* Imagenes */
