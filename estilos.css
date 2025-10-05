@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 
 body{
-    background:linear-gradient(to bottom, #ec525f,#fe0016);
+    background:linear-gradient(to bottom, #ec4856,#fe0016);
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -10,7 +10,7 @@ body{
 /* nav contenedor de todo */ 
 
 .contenedor{
-    background:white;
+    background:linear-gradient(to top, #ec5c68,#f8949c);
     width: 80%;
     height: 80%;
     margin: 40px auto;
@@ -42,6 +42,7 @@ body{
 
 /* menu */
 
+
 /* Footer */
 
 .footer{
@@ -58,7 +59,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 35px;
     margin: 20px auto;
 }
 
@@ -67,9 +68,75 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 /* Footer */
+
+/* pagina Nosotros */
+
+.textoNos{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 2px 2px 6px rgb(148, 32, 32); 
+}
+
+.imgNos{
+   width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* pagina Nosotros */
+
+
+/* contenedor Franquicias */
+
+.contF{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,fr);
+    justify-items: center;
+    align-items:center;
+    gap: 150px;
+    width: 80%;
+    height: fit-content;
+    padding: 20px;
+    margin: 40px auto;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8); 
+}
+
+.contF img{
+    width: 600px;
+    height: 600px;
+    display: block;
+    border-radius: 10px;
+    object-fit:fill;
+}
+
+.contF h2{
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #b71422;
+}
+
+.contF h3{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #b71422;
+}
+
+/* contenedor Franquicias */
 
 
 /* Contenedor juegos / consolas */
@@ -121,8 +188,10 @@ body{
     color: #b71422;
 }
 
-
 /* Contenedor juegos / consolas */
+
+
+/* Otras clases / tags */
 
 .textoTitulo{
     font-family: 'Montserrat', sans-serif;
@@ -141,4 +210,20 @@ body{
     text-align: center;
     font-size: 50px;
 }
+
+.contIndividual{
+    justify-items: center;
+    align-items:center;
+    gap: 150px;
+    width: fit-content;
+    height: fit-content;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 20px;
+    margin: 40px auto; 
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Otras clases / tags */
 
