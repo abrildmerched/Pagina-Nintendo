@@ -31,6 +31,10 @@ body{
     padding: 50px;
 }
 
+.menu a:hover {
+  color: #f8949c;
+}
+
 .menu a{
     margin: 20px; 
     color: #ffffff;
