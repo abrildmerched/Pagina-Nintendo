@@ -3,17 +3,17 @@
 body{
     background:linear-gradient(to bottom, #ec4856,#fe0016);
     margin: 0;
-    padding: 0;
+    padding: 100px;
     min-height: 100vh;
 }
 
 /* nav contenedor de todo */ 
 
 .contenedor{
-    background:linear-gradient(to top, #ec5c68,#f8949c);
+    background:linear-gradient(to top, #eb6671,#f8949c);
     width: 80%;
     height: 80%;
-    margin: 40px auto;
+    margin: 80px auto;
     padding: 40px;
 }
 
@@ -32,7 +32,16 @@ body{
 }
 
 .menu a{
-    margin: 0 30px; 
+    margin: 20px; 
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu h1{
+    margin: 20px; 
     color: #ffffff;
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
